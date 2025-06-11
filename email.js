@@ -17,10 +17,10 @@ const ContactForm = () => {
     };
 
     emailjs.send(
-      'service_fqo6lyh',
-      'template_o2ohffy',
+      'service_abc123',         
+      'template_xyz456',        
       templateParams,
-      'oPqedRbXNFKTzSBBZ'
+      'T4sE9xxxxxg2o'           
     )
       .then((result) => {
         alert('Your message has been sent!');
